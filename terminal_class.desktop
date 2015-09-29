@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Terminal smart display
+Name[en]=Terminal layout according to resolution 
+Comment=class!
+GenericName=Terminal
+Type=Application
+Exec=/usr/share/script/terminal_class.sh
+Icon=nohost
+Terminal=true
+StartupNotify=true
+Categories=Terminal
+Keywords=Terminal;
+MimeType=text/plain;
