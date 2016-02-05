@@ -3,6 +3,9 @@ GS_PROXY_PATH="org.gnome.system.proxy"
 GS_PROXY_MODE_KEY="mode"
 MODE_tab=("none" "manual" "auto")
 
+# Example of ignored hosts
+#/usr/bin/gsettings set org.gnome.system.proxy ignore-hosts "['localhost', '127.0.0.0/8', '::1', 'intel.com', '.intel.com', '192.168.0.0/24']"
+
 get_mode_num()
 {
 	if [ -z $1 ]; then
