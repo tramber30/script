@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # utility.sh path
 UTILITY_PATH="~/git/script/utility.sh"
