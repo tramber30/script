@@ -40,7 +40,6 @@ function fatal_error()
 function check_var()
 {
         debug "in check_var()"
-        
         for i in $@
         do
                 debug_var "variable name: <$i>, value <${!i}>"
@@ -49,6 +48,5 @@ function check_var()
                         fatal_error "undefined value <$i>"
                 fi
         done
-
         debug "out check_var()"
 }
